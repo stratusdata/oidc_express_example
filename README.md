@@ -13,13 +13,13 @@ This is a simple Node.js server implementation of the OIDC Authorization Code Fl
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:stratusdata/oidc_express_example.git
    ```
 
 2. Navigate to the repository folder:
 
    ```bash
-   cd <repository-folder-name>
+   cd oidc_express_example
    ```
 
 3. Install the necessary npm packages:
