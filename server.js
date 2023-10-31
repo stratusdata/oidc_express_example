@@ -14,7 +14,7 @@ const config = {
     clientSecret: env.OIDC_CLIENT_SECRET,
     scope: env.OIDC_CLIENT_SCOPE || 'openid profile email',
     authCallbackPath: '/auth/callback',
-    authCallbackHost: `http://${HTTP_HOSTNAME}:${env.HTTP_PORT}`,
+    authCallbackHost: `http://${env.HTTP_HOSTNAME}:${env.HTTP_PORT}`,
   },
   httpPort: env.HTTP_PORT || 8675
 
