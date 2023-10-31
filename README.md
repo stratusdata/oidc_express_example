@@ -40,6 +40,8 @@ OIDC_CLIENT_SCOPE=openid profile email
 HTTP_PORT=3000
 ```
 
+Please note: this application demonstrates the **Authorization Code Flow** for OpenID Connect. Only the `OIDC_METADATA_URL`, `OIDC_CLIENT_ID` and callback urls are shared with the OpenID Connect Provider.  All other settings or variables are internal to the application include the `OIDC_CLIENT_SECRET` environment variable.
+
 **Note:** The given default values are placeholders. Replace them with appropriate values from your OIDC provider.
 
 ## Running the Application
