@@ -35,7 +35,6 @@ This application uses environment variables to configure the OIDC client. You ca
 ```env
 OIDC_METADATA_URL=https://your-oidc-provider.com/.well-known/openid-configuration
 OIDC_CLIENT_ID=your-client-id 
-OIDC_CLIENT_SECRET=your-client-secret
 OIDC_CLIENT_SCOPE=openid profile email
 HTTP_PORT=3000
 ```
@@ -67,7 +66,7 @@ Please note: this application demonstrates the **Authorization Code Flow** for O
 
 ## Security
 
-Ensure you keep the `.env` file secure and never commit it to public repositories. The client secret should be kept confidential. Consider using other security measures for production, like HTTPS, session management, and token validation.
+Ensure you keep the `.env` file secure and never commit it to public repositories. Consider using other security measures for production, like HTTPS, session management, and token validation.
 
 ## Dependencies
 

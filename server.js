@@ -27,9 +27,9 @@ Issuer.discover(config.oidc.metadataURL)
     
     oidcClient = new issuer.Client({
       client_id: config.oidc.clientID,
-      client_secret: config.oidc.clientSecret,
       redirect_uris: [`${config.oidc.authCallbackHost}${config.oidc.authCallbackPath}`],
-      response_types: ['code']
+      response_types: ['code'],
+      token_endpoint_auth_method: 'none'
     });
   });
 
